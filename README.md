@@ -16,6 +16,12 @@
 
 ![5d859db45fba2d11dd1fa9b5c1d24363.png](https://ice.frostsky.com/2024/07/19/5d859db45fba2d11dd1fa9b5c1d24363.png)
 
+
+```shell
+git clone https://github.com/MITEGithub/easy-tensorflow.git
+```
+
+
 ### 具体任务
 
 - 补全 project 中的 blanks ，让整个 project  能够正常的使用
