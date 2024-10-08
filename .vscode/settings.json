@@ -1,3 +1,4 @@
 {
-    "python.REPL.enableREPLSmartSend": false
+    "python.REPL.enableREPLSmartSend": false,
+    "C_Cpp.default.compilerPath": "/usr/bin/clang++"
 }

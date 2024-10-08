@@ -7,8 +7,8 @@ def make_and_run():
     command_pack = ["make", "pack"]
     subprocess.run(command_pack)
     
-    command_test = ["g++", "./test/main.cc", "-o", "./test/test", "-Lbuild", "-leasytf"]
-    command_correct = ["g++", "./test/main.cc", "-o", "./test/correct", "-Ltest", "-leasytf_correct"]
+    command_test = ["g++", "-std=c++17", "./test/main.cc", "-o", "./test/test", "-Lbuild", "-leasytf"]
+    command_correct = ["g++", "-std=c++17", "./test/main.cc", "-o", "./test/correct", "-Ltest", "-leasytf_correct"]
     
     subprocess.run(command_test)
     subprocess.run(command_correct)
